@@ -9494,9 +9494,6 @@
         <Class IRI="#&apos;Stasis_of_Import_of_As_in_the_US_2018-21&apos;"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#&apos;derives_into&apos;_some_Cesium"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#(Ag,Au)Te2"/>
     </Declaration>
     <Declaration>
@@ -9687,9 +9684,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#2022"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#A_deposit,_produced_by_alkali_metasomatism_or_contractional_orogeny_in_a_Mississippi_Valley-type_(MVT)_setting_that_has_fluorite"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Aeschynite-(Ce)"/>
@@ -10190,22 +10184,7 @@
         <Class IRI="#Which_chemical_weathering_deposit_may_produce_GA,_Li,_and/or_REE_in_an_arid_or_temperate_climate_zone?"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Which_deposit,_produced_by_a_chemical_weathering_process_in_an_arid_or_temperate_climate,_contains_REE_and_potentially_scandium?"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Which_deposit_containing_REE_and_Nb_forms_in_some_tropical_climate_zone?"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Which_deposit_is_a_product_of_some_climax-type_process_and_has_Be,_Ni,_Sc,_and_Ta?"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Which_deposits_formed_in_the_Carlin-type_system_contain_Antimony_and_Arsenic?"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Which_mafic_magmatic_deposit_hosts_both_Co_and_PGE_and_potentially_can_also_host_Te?"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Which_ore_deposit_hosts_both_Co_and_PGE_and_can_also_host_Te?"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Which_turbulent_flow_in_drainage_basins_leads_to_erosion,_winnowing_away_of_soluble_and_soft_minerals,_and_chemical_breakdown_of_minerals?"/>
@@ -11240,33 +11219,6 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#&apos;derives_into&apos;_some_Cesium"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001001"/>
-            <Class IRI="#Cesium"/>
-        </ObjectSomeValuesFrom>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#A_deposit,_produced_by_alkali_metasomatism_or_contractional_orogeny_in_a_Mississippi_Valley-type_(MVT)_setting_that_has_fluorite"/>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001001"/>
-                <Class IRI="#Fluorite"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <Class IRI="#Mississippi_Valley-type_(MVT)_Group_setting"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_output_of"/>
-                <ObjectUnionOf>
-                    <Class IRI="#Alkali_Metasomatism"/>
-                    <Class IRI="#Contractional_Orogeny"/>
-                </ObjectUnionOf>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#Ultramafic_and_(or)_mafic_intrusion_Group_setting"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001015"/>
@@ -11344,100 +11296,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#Which_deposit,_produced_by_a_chemical_weathering_process_in_an_arid_or_temperate_climate,_contains_REE_and_potentially_scandium?"/>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001001"/>
-                <Class IRI="#REE"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <ObjectUnionOf>
-                    <Class IRI="#Arid_Climatic_Zone"/>
-                    <Class IRI="#Temperate_Climatic_Zone"/>
-                </ObjectUnionOf>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_output_of"/>
-                <Class IRI="#Chemical_Weathering_Process"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#has_potential_to_derive_into"/>
-                <Class IRI="#Scandium"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Which_deposit_containing_REE_and_Nb_forms_in_some_tropical_climate_zone?"/>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001001"/>
-                <Class IRI="#Niobium"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001001"/>
-                <Class IRI="#REE"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <Class IRI="#Tropical_Climatic_Zone"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Which_deposit_is_a_product_of_some_climax-type_process_and_has_Be,_Ni,_Sc,_and_Ta?"/>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001001"/>
-                <ObjectUnionOf>
-                    <Class IRI="#Beryllium"/>
-                    <Class IRI="#Niobium"/>
-                    <Class IRI="#Scandium"/>
-                    <Class IRI="#Tantalum"/>
-                </ObjectUnionOf>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_output_of"/>
-                <Class IRI="#Climax-type_Process"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Which_deposits_formed_in_the_Carlin-type_system_contain_Antimony_and_Arsenic?"/>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001001"/>
-                <ObjectUnionOf>
-                    <Class IRI="#Antimony"/>
-                    <Class IRI="#Arsenic"/>
-                </ObjectUnionOf>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_output_of"/>
-                <Class IRI="#Carlin-type_Process"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#Which_mafic_magmatic_deposit_hosts_both_Co_and_PGE_and_potentially_can_also_host_Te?"/>
         <ObjectIntersectionOf>
             <Class IRI="#Mafic_magmatic_Deposit"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001001"/>
-                <ObjectUnionOf>
-                    <Class IRI="#Cobalt"/>
-                    <Class IRI="#PGE"/>
-                </ObjectUnionOf>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#has_potential_to_derive_into"/>
-                <Class IRI="#Tellurium"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Which_ore_deposit_hosts_both_Co_and_PGE_and_can_also_host_Te?"/>
-        <ObjectIntersectionOf>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001001"/>
                 <ObjectUnionOf>
@@ -22737,6 +22598,10 @@
             <ObjectProperty IRI="#has_potential_to_derive_into"/>
             <Class IRI="#Vanadium"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Core_Drilling"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Corrosion-resistant_Alloy"/>
